@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="f9f6c73f-a197-43d0-933d-aa226abec28c" name="ebcak@BURAK 2023-05-10 18:08:50" runUser="BURAK\ebcak" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-05-10T18:08:50.3424515+03:00" queuing="2023-05-10T18:08:50.3424517+03:00" start="2023-05-10T18:08:49.0450234+03:00" finish="2023-05-10T18:08:50.4506061+03:00" />
+  <TestSettings name="default" id="31e25e4a-795a-45b8-b8ef-36d55f3acc26">
+    <Deployment runDeploymentRoot="ebcak_BURAK_2023-05-10_18_08_50" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9c722c3d-be60-4453-97f3-09730f874df8" testId="0050e996-cd65-4b2c-e417-cbb494a06b91" testName="AlgorithmTests.KruskalAlgorithmTest.BestCase" computerName="BURAK" duration="00:00:00.0020415" startTime="2023-05-10T18:08:50.2962390+03:00" endTime="2023-05-10T18:08:50.2962391+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c722c3d-be60-4453-97f3-09730f874df8" />
+    <UnitTestResult executionId="4c4759d4-fee8-47aa-9d22-9b12396ca342" testId="be36c7e1-bcfb-53d5-a10b-dcdff409b80c" testName="AlgorithmTests.BelmannFordAlgorithmTest.WorstCase" computerName="BURAK" duration="00:00:00.0003125" startTime="2023-05-10T18:08:50.2963172+03:00" endTime="2023-05-10T18:08:50.2963173+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c4759d4-fee8-47aa-9d22-9b12396ca342" />
+    <UnitTestResult executionId="fae8b0cc-b9aa-485e-811b-97d3d0b025e0" testId="1ad14d07-0b19-af31-49ed-d2eeb059e8fa" testName="AlgorithmTests.KruskalAlgorithmTest.AverageCase" computerName="BURAK" duration="00:00:00.0061858" startTime="2023-05-10T18:08:50.2956710+03:00" endTime="2023-05-10T18:08:50.2956710+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fae8b0cc-b9aa-485e-811b-97d3d0b025e0" />
+    <UnitTestResult executionId="36a49433-cca1-4b50-806f-1039cb5deb62" testId="adf30842-d3db-580b-f996-c41e40929a1a" testName="AlgorithmTests.HuffmanCodingTest.Mp3FileCompressTest" computerName="BURAK" duration="00:00:00.0002360" startTime="2023-05-10T18:08:50.3226403+03:00" endTime="2023-05-10T18:08:50.3226403+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36a49433-cca1-4b50-806f-1039cb5deb62">
+      <Output>
+        <ErrorInfo>
+          <Message>System.IO.FileNotFoundException : Could not find file 'C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\Test\Test.mp3'.</Message>
+          <StackTrace>   at System.IO.FileInfo.get_Length()&#xD;
+   at AlgorithmTests.HuffmanCodingTest.Mp3FileCompressTest() in C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\UnitTest.cs:line 350</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a0ccc708-98a1-47a6-8552-41c71076f699" testId="4d2109aa-e5fc-df95-2684-aa5fbf8f343b" testName="AlgorithmTests.HuffmanCodingTest.TextFileCompressTest" computerName="BURAK" duration="00:00:00.0002561" startTime="2023-05-10T18:08:50.3222623+03:00" endTime="2023-05-10T18:08:50.3222624+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0ccc708-98a1-47a6-8552-41c71076f699">
+      <Output>
+        <ErrorInfo>
+          <Message>System.IO.FileNotFoundException : Could not find file 'C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\Test\CompressedText'.</Message>
+          <StackTrace>   at System.IO.FileInfo.get_Length()&#xD;
+   at AlgorithmTests.HuffmanCodingTest.TextFileCompressTest() in C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\UnitTest.cs:line 336</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bccc64d6-993e-423b-bebf-4f6edd36062a" testId="a8fa783f-4d58-9073-a3af-ce75d473bae8" testName="AlgorithmTests.HuffmanCodingTest.Mp3FileDecompressTest" computerName="BURAK" duration="00:00:00.0003428" startTime="2023-05-10T18:08:50.3028241+03:00" endTime="2023-05-10T18:08:50.3028241+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bccc64d6-993e-423b-bebf-4f6edd36062a">
+      <Output>
+        <ErrorInfo>
+          <Message>System.IO.FileNotFoundException : Could not find file 'C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\Test\Test.mp3'.</Message>
+          <StackTrace>   at System.IO.FileInfo.get_Length()&#xD;
+   at AlgorithmTests.HuffmanCodingTest.Mp3FileDecompressTest() in C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\UnitTest.cs:line 381</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c2d4b1ad-03ff-4113-9d76-8d81da8917b0" testId="053dba3c-2b7f-e009-1a71-b6824c31a6fb" testName="AlgorithmTests.HuffmanCodingTest.TextFileDecompressTest" computerName="BURAK" duration="00:00:00.0002453" startTime="2023-05-10T18:08:50.3229535+03:00" endTime="2023-05-10T18:08:50.3229536+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2d4b1ad-03ff-4113-9d76-8d81da8917b0">
+      <Output>
+        <ErrorInfo>
+          <Message>System.IO.FileNotFoundException : Could not find file 'C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\Test\Test.txt'.</Message>
+          <StackTrace>   at System.IO.FileInfo.get_Length()&#xD;
+   at AlgorithmTests.HuffmanCodingTest.TextFileDecompressTest() in C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\UnitTest.cs:line 366</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3d256029-f6be-4b77-8802-1f7a75f53ae8" testId="6a65c67e-4c6f-d7ae-8dc4-9a32da04c6aa" testName="AlgorithmTests.BelmannFordAlgorithmTest.AverageCase" computerName="BURAK" duration="00:00:00.0025113" startTime="2023-05-10T18:08:50.2960013+03:00" endTime="2023-05-10T18:08:50.2960014+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d256029-f6be-4b77-8802-1f7a75f53ae8" />
+    <UnitTestResult executionId="f6de019b-911b-4d56-9eda-f4ebabfe46fa" testId="25730027-421f-8ba8-9061-e68c18789b0d" testName="AlgorithmTests.HuffmanCoding.TextFileAndSoundFileSizeTest" computerName="BURAK" duration="00:00:00.0035936" startTime="2023-05-10T18:08:50.3022640+03:00" endTime="2023-05-10T18:08:50.3022642+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6de019b-911b-4d56-9eda-f4ebabfe46fa">
+      <Output>
+        <ErrorInfo>
+          <Message>System.IO.FileNotFoundException : Could not find file 'C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\Test\Test.mp3'.</Message>
+          <StackTrace>   at System.IO.FileInfo.get_Length()&#xD;
+   at AlgorithmTests.HuffmanCoding.TextFileAndSoundFileSizeTest() in C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\UnitTest.cs:line 215</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6c99ab00-d481-4b17-bf0a-7ff33cfaaf4b" testId="a6e04862-ca56-4bb1-96ef-ef5b14e7b8aa" testName="AlgorithmTests.KruskalAlgorithmTest.WorstCase" computerName="BURAK" duration="00:00:00.0001994" startTime="2023-05-10T18:08:50.2958565+03:00" endTime="2023-05-10T18:08:50.2958565+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c99ab00-d481-4b17-bf0a-7ff33cfaaf4b" />
+    <UnitTestResult executionId="37903d0d-b507-450a-a078-2bc5be46b5d5" testId="868c4ea0-4508-2cb0-b2e7-45c99d7d09b7" testName="AlgorithmTests.BelmannFordAlgorithmTest.BestCase" computerName="BURAK" duration="00:00:00.0042640" startTime="2023-05-10T18:08:50.2875134+03:00" endTime="2023-05-10T18:08:50.2875339+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37903d0d-b507-450a-a078-2bc5be46b5d5" />
+    <UnitTestResult executionId="995113d5-3abc-481f-ad47-bf43a8772bf4" testId="e0aa0750-ed4f-a530-01cb-9ee9e5f17d23" testName="AlgorithmTests.IkeaProblemTest.IkeaProblemAlgorithm" computerName="BURAK" duration="00:00:00.0083937" startTime="2023-05-10T18:08:50.2960730+03:00" endTime="2023-05-10T18:08:50.2960730+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="995113d5-3abc-481f-ad47-bf43a8772bf4" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="AlgorithmTests.BelmannFordAlgorithmTest.BestCase" storage="c:\users\ebcak\source\repos\ce100-hw3-sln\unittest\bin\release\net6.0\ce100-hw3-algo-test-cs.dll" id="868c4ea0-4508-2cb0-b2e7-45c99d7d09b7">
+      <Execution id="37903d0d-b507-450a-a078-2bc5be46b5d5" />
+      <TestMethod codeBase="C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\ce100-hw3-algo-test-cs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AlgorithmTests.BelmannFordAlgorithmTest" name="BestCase" />
+    </UnitTest>
+    <UnitTest name="AlgorithmTests.BelmannFordAlgorithmTest.AverageCase" storage="c:\users\ebcak\source\repos\ce100-hw3-sln\unittest\bin\release\net6.0\ce100-hw3-algo-test-cs.dll" id="6a65c67e-4c6f-d7ae-8dc4-9a32da04c6aa">
+      <Execution id="3d256029-f6be-4b77-8802-1f7a75f53ae8" />
+      <TestMethod codeBase="C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\ce100-hw3-algo-test-cs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AlgorithmTests.BelmannFordAlgorithmTest" name="AverageCase" />
+    </UnitTest>
+    <UnitTest name="AlgorithmTests.KruskalAlgorithmTest.AverageCase" storage="c:\users\ebcak\source\repos\ce100-hw3-sln\unittest\bin\release\net6.0\ce100-hw3-algo-test-cs.dll" id="1ad14d07-0b19-af31-49ed-d2eeb059e8fa">
+      <Execution id="fae8b0cc-b9aa-485e-811b-97d3d0b025e0" />
+      <TestMethod codeBase="C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\ce100-hw3-algo-test-cs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AlgorithmTests.KruskalAlgorithmTest" name="AverageCase" />
+    </UnitTest>
+    <UnitTest name="AlgorithmTests.HuffmanCodingTest.TextFileCompressTest" storage="c:\users\ebcak\source\repos\ce100-hw3-sln\unittest\bin\release\net6.0\ce100-hw3-algo-test-cs.dll" id="4d2109aa-e5fc-df95-2684-aa5fbf8f343b">
+      <Execution id="a0ccc708-98a1-47a6-8552-41c71076f699" />
+      <TestMethod codeBase="C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\ce100-hw3-algo-test-cs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AlgorithmTests.HuffmanCodingTest" name="TextFileCompressTest" />
+    </UnitTest>
+    <UnitTest name="AlgorithmTests.IkeaProblemTest.IkeaProblemAlgorithm" storage="c:\users\ebcak\source\repos\ce100-hw3-sln\unittest\bin\release\net6.0\ce100-hw3-algo-test-cs.dll" id="e0aa0750-ed4f-a530-01cb-9ee9e5f17d23">
+      <Execution id="995113d5-3abc-481f-ad47-bf43a8772bf4" />
+      <TestMethod codeBase="C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\ce100-hw3-algo-test-cs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AlgorithmTests.IkeaProblemTest" name="IkeaProblemAlgorithm" />
+    </UnitTest>
+    <UnitTest name="AlgorithmTests.KruskalAlgorithmTest.BestCase" storage="c:\users\ebcak\source\repos\ce100-hw3-sln\unittest\bin\release\net6.0\ce100-hw3-algo-test-cs.dll" id="0050e996-cd65-4b2c-e417-cbb494a06b91">
+      <Execution id="9c722c3d-be60-4453-97f3-09730f874df8" />
+      <TestMethod codeBase="C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\ce100-hw3-algo-test-cs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AlgorithmTests.KruskalAlgorithmTest" name="BestCase" />
+    </UnitTest>
+    <UnitTest name="AlgorithmTests.BelmannFordAlgorithmTest.WorstCase" storage="c:\users\ebcak\source\repos\ce100-hw3-sln\unittest\bin\release\net6.0\ce100-hw3-algo-test-cs.dll" id="be36c7e1-bcfb-53d5-a10b-dcdff409b80c">
+      <Execution id="4c4759d4-fee8-47aa-9d22-9b12396ca342" />
+      <TestMethod codeBase="C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\ce100-hw3-algo-test-cs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AlgorithmTests.BelmannFordAlgorithmTest" name="WorstCase" />
+    </UnitTest>
+    <UnitTest name="AlgorithmTests.HuffmanCodingTest.Mp3FileCompressTest" storage="c:\users\ebcak\source\repos\ce100-hw3-sln\unittest\bin\release\net6.0\ce100-hw3-algo-test-cs.dll" id="adf30842-d3db-580b-f996-c41e40929a1a">
+      <Execution id="36a49433-cca1-4b50-806f-1039cb5deb62" />
+      <TestMethod codeBase="C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\ce100-hw3-algo-test-cs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AlgorithmTests.HuffmanCodingTest" name="Mp3FileCompressTest" />
+    </UnitTest>
+    <UnitTest name="AlgorithmTests.HuffmanCodingTest.Mp3FileDecompressTest" storage="c:\users\ebcak\source\repos\ce100-hw3-sln\unittest\bin\release\net6.0\ce100-hw3-algo-test-cs.dll" id="a8fa783f-4d58-9073-a3af-ce75d473bae8">
+      <Execution id="bccc64d6-993e-423b-bebf-4f6edd36062a" />
+      <TestMethod codeBase="C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\ce100-hw3-algo-test-cs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AlgorithmTests.HuffmanCodingTest" name="Mp3FileDecompressTest" />
+    </UnitTest>
+    <UnitTest name="AlgorithmTests.KruskalAlgorithmTest.WorstCase" storage="c:\users\ebcak\source\repos\ce100-hw3-sln\unittest\bin\release\net6.0\ce100-hw3-algo-test-cs.dll" id="a6e04862-ca56-4bb1-96ef-ef5b14e7b8aa">
+      <Execution id="6c99ab00-d481-4b17-bf0a-7ff33cfaaf4b" />
+      <TestMethod codeBase="C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\ce100-hw3-algo-test-cs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AlgorithmTests.KruskalAlgorithmTest" name="WorstCase" />
+    </UnitTest>
+    <UnitTest name="AlgorithmTests.HuffmanCodingTest.TextFileDecompressTest" storage="c:\users\ebcak\source\repos\ce100-hw3-sln\unittest\bin\release\net6.0\ce100-hw3-algo-test-cs.dll" id="053dba3c-2b7f-e009-1a71-b6824c31a6fb">
+      <Execution id="c2d4b1ad-03ff-4113-9d76-8d81da8917b0" />
+      <TestMethod codeBase="C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\ce100-hw3-algo-test-cs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AlgorithmTests.HuffmanCodingTest" name="TextFileDecompressTest" />
+    </UnitTest>
+    <UnitTest name="AlgorithmTests.HuffmanCoding.TextFileAndSoundFileSizeTest" storage="c:\users\ebcak\source\repos\ce100-hw3-sln\unittest\bin\release\net6.0\ce100-hw3-algo-test-cs.dll" id="25730027-421f-8ba8-9061-e68c18789b0d">
+      <Execution id="f6de019b-911b-4d56-9eda-f4ebabfe46fa" />
+      <TestMethod codeBase="C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\ce100-hw3-algo-test-cs.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="AlgorithmTests.HuffmanCoding" name="TextFileAndSoundFileSizeTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="0050e996-cd65-4b2c-e417-cbb494a06b91" executionId="9c722c3d-be60-4453-97f3-09730f874df8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be36c7e1-bcfb-53d5-a10b-dcdff409b80c" executionId="4c4759d4-fee8-47aa-9d22-9b12396ca342" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ad14d07-0b19-af31-49ed-d2eeb059e8fa" executionId="fae8b0cc-b9aa-485e-811b-97d3d0b025e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adf30842-d3db-580b-f996-c41e40929a1a" executionId="36a49433-cca1-4b50-806f-1039cb5deb62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d2109aa-e5fc-df95-2684-aa5fbf8f343b" executionId="a0ccc708-98a1-47a6-8552-41c71076f699" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8fa783f-4d58-9073-a3af-ce75d473bae8" executionId="bccc64d6-993e-423b-bebf-4f6edd36062a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="053dba3c-2b7f-e009-1a71-b6824c31a6fb" executionId="c2d4b1ad-03ff-4113-9d76-8d81da8917b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a65c67e-4c6f-d7ae-8dc4-9a32da04c6aa" executionId="3d256029-f6be-4b77-8802-1f7a75f53ae8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25730027-421f-8ba8-9061-e68c18789b0d" executionId="f6de019b-911b-4d56-9eda-f4ebabfe46fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6e04862-ca56-4bb1-96ef-ef5b14e7b8aa" executionId="6c99ab00-d481-4b17-bf0a-7ff33cfaaf4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="868c4ea0-4508-2cb0-b2e7-45c99d7d09b7" executionId="37903d0d-b507-450a-a078-2bc5be46b5d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0aa0750-ed4f-a530-01cb-9ee9e5f17d23" executionId="995113d5-3abc-481f-ad47-bf43a8772bf4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="12" executed="12" passed="7" failed="5" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.5+1caef2f33e (64-bit .NET 6.0.16)&#xD;
+[xUnit.net 00:00:00.31]   Discovering: ce100-hw3-algo-test-cs&#xD;
+[xUnit.net 00:00:00.34]   Discovered:  ce100-hw3-algo-test-cs&#xD;
+[xUnit.net 00:00:00.34]   Starting:    ce100-hw3-algo-test-cs&#xD;
+[xUnit.net 00:00:00.40]       System.IO.FileNotFoundException : Could not find file 'C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\Test\Test.mp3'.&#xD;
+[xUnit.net 00:00:00.40]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.41]            at System.IO.FileInfo.get_Length()&#xD;
+[xUnit.net 00:00:00.41]         C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\UnitTest.cs(215,0): at AlgorithmTests.HuffmanCoding.TextFileAndSoundFileSizeTest()&#xD;
+[xUnit.net 00:00:00.41]       System.IO.FileNotFoundException : Could not find file 'C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\Test\Test.mp3'.&#xD;
+[xUnit.net 00:00:00.41]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.41]            at System.IO.FileInfo.get_Length()&#xD;
+[xUnit.net 00:00:00.41]         C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\UnitTest.cs(381,0): at AlgorithmTests.HuffmanCodingTest.Mp3FileDecompressTest()&#xD;
+[xUnit.net 00:00:00.43]       System.IO.FileNotFoundException : Could not find file 'C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\Test\CompressedText'.&#xD;
+[xUnit.net 00:00:00.43]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.43]            at System.IO.FileInfo.get_Length()&#xD;
+[xUnit.net 00:00:00.43]         C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\UnitTest.cs(336,0): at AlgorithmTests.HuffmanCodingTest.TextFileCompressTest()&#xD;
+[xUnit.net 00:00:00.43]       System.IO.FileNotFoundException : Could not find file 'C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\Test\Test.mp3'.&#xD;
+[xUnit.net 00:00:00.43]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.43]            at System.IO.FileInfo.get_Length()&#xD;
+[xUnit.net 00:00:00.43]         C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\UnitTest.cs(350,0): at AlgorithmTests.HuffmanCodingTest.Mp3FileCompressTest()&#xD;
+[xUnit.net 00:00:00.43]       System.IO.FileNotFoundException : Could not find file 'C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\bin\Release\net6.0\Test\Test.txt'.&#xD;
+[xUnit.net 00:00:00.43]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.43]            at System.IO.FileInfo.get_Length()&#xD;
+[xUnit.net 00:00:00.43]         C:\Users\ebcak\source\repos\ce100-hw3-sln\UnitTest\UnitTest.cs(366,0): at AlgorithmTests.HuffmanCodingTest.TextFileDecompressTest()&#xD;
+[xUnit.net 00:00:00.43]   Finished:    ce100-hw3-algo-test-cs&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="BURAK" outcome="Min" timestamp="2023-05-10T18:08:50.2997863+03:00">
+        <Text>[xUnit.net 00:00:00.40]     AlgorithmTests.HuffmanCoding.TextFileAndSoundFileSizeTest [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="BURAK" outcome="Min" timestamp="2023-05-10T18:08:50.3028330+03:00">
+        <Text>[xUnit.net 00:00:00.41]     AlgorithmTests.HuffmanCodingTest.Mp3FileDecompressTest [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="BURAK" outcome="Min" timestamp="2023-05-10T18:08:50.3529035+03:00">
+        <Text>[xUnit.net 00:00:00.43]     AlgorithmTests.HuffmanCodingTest.TextFileCompressTest [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="BURAK" outcome="Min" timestamp="2023-05-10T18:08:50.3544451+03:00">
+        <Text>[xUnit.net 00:00:00.43]     AlgorithmTests.HuffmanCodingTest.Mp3FileCompressTest [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="BURAK" outcome="Min" timestamp="2023-05-10T18:08:50.3553668+03:00">
+        <Text>[xUnit.net 00:00:00.43]     AlgorithmTests.HuffmanCodingTest.TextFileDecompressTest [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+    <CollectorDataEntries>
+      <Collector agentName="BURAK" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="BURAK\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

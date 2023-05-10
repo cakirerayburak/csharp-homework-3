@@ -13,4 +13,10 @@
     <SourceRoot Include="C:\Users\ebcak\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)reportgenerator\5.1.20\build\netstandard2.0\ReportGenerator.props" Condition="Exists('$(NuGetPackageRoot)reportgenerator\5.1.20\build\netstandard2.0\ReportGenerator.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgReportGenerator Condition=" '$(PkgReportGenerator)' == '' ">C:\Users\ebcak\.nuget\packages\reportgenerator\5.1.20</PkgReportGenerator>
+  </PropertyGroup>
 </Project>
