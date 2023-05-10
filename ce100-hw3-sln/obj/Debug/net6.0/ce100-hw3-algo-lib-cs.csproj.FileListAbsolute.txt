@@ -1,0 +1,12 @@
+C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\bin\Debug\net6.0\ce100-hw3-algo-lib-cs.deps.json
+C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\bin\Debug\net6.0\ce100-hw3-algo-lib-cs.dll
+C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\bin\Debug\net6.0\ce100-hw3-algo-lib-cs.pdb
+C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.csproj.AssemblyReference.cache
+C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.AssemblyInfoInputs.cache
+C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.AssemblyInfo.cs
+C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.csproj.CoreCompileInputs.cache
+C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.dll
+C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Debug\net6.0\refint\ce100-hw3-algo-lib-cs.dll
+C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.pdb
+C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Debug\net6.0\ref\ce100-hw3-algo-lib-cs.dll
