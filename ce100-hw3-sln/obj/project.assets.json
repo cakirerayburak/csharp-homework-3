@@ -14,6 +14,20 @@
           "build/netstandard2.0/ReportGenerator.props": {}
         }
       }
+    },
+    "net6.0/win-x64": {
+      "coverlet.collector/3.2.0": {
+        "type": "package",
+        "build": {
+          "build/netstandard1.0/coverlet.collector.targets": {}
+        }
+      },
+      "ReportGenerator/5.1.20": {
+        "type": "package",
+        "build": {
+          "build/netstandard2.0/ReportGenerator.props": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -416,11 +430,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ebcak\\source\\repos\\ce100-hw3-sln\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
+      "projectUniqueName": "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
       "projectName": "ce100-hw3-algo-lib-cs",
-      "projectPath": "C:\\Users\\ebcak\\source\\repos\\ce100-hw3-sln\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
+      "projectPath": "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
       "packagesPath": "C:\\Users\\ebcak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ebcak\\source\\repos\\ce100-hw3-sln\\ce100-hw3-sln\\obj\\",
+      "outputPath": "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -476,12 +490,31 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[6.0.16, 6.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[6.0.16, 6.0.16]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[6.0.16, 6.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
       }
     }
   }

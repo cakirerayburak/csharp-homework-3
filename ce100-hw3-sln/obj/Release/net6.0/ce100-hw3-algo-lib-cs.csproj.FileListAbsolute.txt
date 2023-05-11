@@ -10,3 +10,15 @@ C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Release\net6.0\ce100
 C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Release\net6.0\refint\ce100-hw3-algo-lib-cs.dll
 C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Release\net6.0\ce100-hw3-algo-lib-cs.pdb
 C:\Users\ebcak\source\repos\ce100-hw3-sln\ce100-hw3-sln\obj\Release\net6.0\ref\ce100-hw3-algo-lib-cs.dll
+C:\Homework\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\bin\Release\net6.0\ce100-hw3-algo-lib-cs.deps.json
+C:\Homework\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\bin\Release\net6.0\ce100-hw3-algo-lib-cs.dll
+C:\Homework\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\bin\Release\net6.0\ce100-hw3-algo-lib-cs.pdb
+C:\Homework\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Release\net6.0\ce100-hw3-algo-lib-cs.csproj.AssemblyReference.cache
+C:\Homework\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Release\net6.0\ce100-hw3-algo-lib-cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Homework\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Release\net6.0\ce100-hw3-algo-lib-cs.AssemblyInfoInputs.cache
+C:\Homework\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Release\net6.0\ce100-hw3-algo-lib-cs.AssemblyInfo.cs
+C:\Homework\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Release\net6.0\ce100-hw3-algo-lib-cs.csproj.CoreCompileInputs.cache
+C:\Homework\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Release\net6.0\ce100-hw3-algo-lib-cs.dll
+C:\Homework\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Release\net6.0\refint\ce100-hw3-algo-lib-cs.dll
+C:\Homework\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Release\net6.0\ce100-hw3-algo-lib-cs.pdb
+C:\Homework\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Release\net6.0\ref\ce100-hw3-algo-lib-cs.dll
