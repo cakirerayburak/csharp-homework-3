@@ -1,14 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "DIgIvfaJIYttO5nqk/itRCLiYTZydVX3E4uGhFSbUGwci4XbR+0dcXqAf0IYD+U7rE9MU2SdVOPiXO/j/kEZmQ==",
+  "dgSpecHash": "kzyhNkgzZJve+GjMJnvSYf4KVe/bSVoFQAR/AmVrUxmAR0RVA589fNmCFfG24iKEXU664sAtglMUqD2sh3oT0w==",
   "success": true,
   "projectFilePath": "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ebcak\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
-    "C:\\Users\\ebcak\\.nuget\\packages\\reportgenerator\\5.1.20\\reportgenerator.5.1.20.nupkg.sha512",
-    "C:\\Users\\ebcak\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.16\\microsoft.netcore.app.runtime.win-x64.6.0.16.nupkg.sha512",
-    "C:\\Users\\ebcak\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.16.nupkg.sha512",
-    "C:\\Users\\ebcak\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x64.6.0.16.nupkg.sha512"
+    "C:\\Users\\ebcak\\.nuget\\packages\\reportgenerator\\5.1.20\\reportgenerator.5.1.20.nupkg.sha512"
   ],
   "logs": []
 }

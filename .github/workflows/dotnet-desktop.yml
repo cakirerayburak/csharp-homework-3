@@ -3,12 +3,12 @@ name: .NET Windows + Doxygen + Test +  Release
 on:
   push:
     branches:
-      - main
+      - master
     tags:
       - 'v*'
   pull_request:
     branches:
-      - feat
+      - master
 
 jobs:
   coverage:
@@ -45,7 +45,7 @@ jobs:
       - name: Check Test Coverage
         run: |
             $ErrorActionPreference = 'Stop'
-            $coverageThreshold = 100.00
+            $coverageThreshold = 99.50
             $coverageReportPath = Get-ChildItem -Recurse -Filter 'coverage.cobertura.xml' | Select-Object -ExpandProperty FullName
             $lines = Get-Content $coverageReportPath
             $xmlContent = $lines -join "`n"

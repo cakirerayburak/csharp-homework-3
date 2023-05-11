@@ -59,8 +59,7 @@ namespace Algorithms
     /// Implements Kruskal's algorithm for finding the minimum spanning tree of a given graph represented as a set of edges.
     /// </summary>
 
-
-    public class KruskalAlgorithm
+     public class KruskalAlgorithm
     {
         /// <summary>
         /// Finds the minimum spanning tree of a graph given its number of vertices and a list of its edges.
@@ -130,8 +129,7 @@ namespace Algorithms
             return root;
         }
     }
-
-
+    
 
 
     /// <summary>
@@ -145,7 +143,7 @@ namespace Algorithms
             /// <summary>
             /// The starting node of the edge.
             /// </summary>
-
+            
             public int Start { get; set; }
 
             /// <summary>
@@ -163,7 +161,7 @@ namespace Algorithms
         }
 
 
-
+       
         /**
 
         @brief Computes the shortest path in a weighted directed graph using the Bellman-Ford algorithm.
@@ -672,7 +670,7 @@ namespace Algorithms
 
 
 
-
+        
 
     }
 }
