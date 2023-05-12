@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\ce100-hw3-algo-test-cs.csproj": {}
+    "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\ce100-hw3-algo-test-cs.csproj": {}
   },
   "projects": {
-    "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj": {
+    "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
+        "projectUniqueName": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
         "projectName": "ce100-hw3-algo-lib-cs",
-        "projectPath": "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
+        "projectPath": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
         "packagesPath": "C:\\Users\\ebcak\\.nuget\\packages\\",
-        "outputPath": "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\obj\\",
+        "outputPath": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\ce100-hw3-algo-test-cs.csproj": {
+    "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\ce100-hw3-algo-test-cs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\ce100-hw3-algo-test-cs.csproj",
+        "projectUniqueName": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\ce100-hw3-algo-test-cs.csproj",
         "projectName": "ce100-hw3-algo-test-cs",
-        "projectPath": "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\ce100-hw3-algo-test-cs.csproj",
+        "projectPath": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\ce100-hw3-algo-test-cs.csproj",
         "packagesPath": "C:\\Users\\ebcak\\.nuget\\packages\\",
-        "outputPath": "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\obj\\",
+        "outputPath": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,8 +105,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj": {
-                "projectPath": "C:\\Homework\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj"
+              "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj": {
+                "projectPath": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj"
               }
             }
           }

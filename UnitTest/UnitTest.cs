@@ -14,7 +14,7 @@ namespace AlgorithmTests
             var numberOfVertices = 5;
             var edges = new List<Edge>();
 
-            // Act
+            // Actt
             var result = Kruskal(numberOfVertices, edges);
 
             // Assert
