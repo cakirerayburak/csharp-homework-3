@@ -416,11 +416,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
+      "projectUniqueName": "D:\\Homewrkk\\ce100-hw3-eray-burak-cakir\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
       "projectName": "ce100-hw3-algo-lib-cs",
-      "projectPath": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
+      "projectPath": "D:\\Homewrkk\\ce100-hw3-eray-burak-cakir\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj",
       "packagesPath": "C:\\Users\\ebcak\\.nuget\\packages\\",
-      "outputPath": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\obj\\",
+      "outputPath": "D:\\Homewrkk\\ce100-hw3-eray-burak-cakir\\ce100-hw3-sln\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

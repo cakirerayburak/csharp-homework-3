@@ -242,17 +242,40 @@ namespace Algorithms
     {
 
 
-
+        /// <summary>
+        /// Represents a node in the Huffman tree for text data.
+        /// </summary>
 
 
 
         public class Node_Txt
         {
+            /// <summary>
+            /// The symbol stored in this node.
+            /// </summary>
             public char Symbol { get; set; }
+
+            /// <summary>
+            /// The frequency of the symbol in the input text.
+            /// </summary>
             public int Frequency { get; set; }
+
+            /// <summary>
+            /// The left child node of this node.
+            /// </summary>
             public Node_Txt Right { get; set; }
+
+            /// <summary>
+            /// The right child node of this node.
+            /// </summary>
             public Node_Txt Left { get; set; }
 
+            /// <summary>
+            /// Traverses the Huffman tree to find the code for the given symbol.
+            /// </summary>
+            /// <param name="symbol">The symbol to find the code for.</param>
+            /// <param name="data">The code data built so far.</param>
+            /// <returns>The code for the given symbol, or null if the symbol is not found in the tree.</returns>
             public List<bool> Traverse(char symbol, List<bool> data)
             {
 

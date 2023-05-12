@@ -70,3 +70,15 @@ D:\Homewrkk\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw
 D:\Homewrkk\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Debug\net6.0\refint\ce100-hw3-algo-lib-cs.dll
 D:\Homewrkk\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.pdb
 D:\Homewrkk\ce-100-hw3-eray-burak-cakirr\ce100-hw3-sln\obj\Debug\net6.0\ref\ce100-hw3-algo-lib-cs.dll
+D:\Homewrkk\ce100-hw3-eray-burak-cakir\ce100-hw3-sln\bin\Debug\net6.0\ce100-hw3-algo-lib-cs.deps.json
+D:\Homewrkk\ce100-hw3-eray-burak-cakir\ce100-hw3-sln\bin\Debug\net6.0\ce100-hw3-algo-lib-cs.dll
+D:\Homewrkk\ce100-hw3-eray-burak-cakir\ce100-hw3-sln\bin\Debug\net6.0\ce100-hw3-algo-lib-cs.pdb
+D:\Homewrkk\ce100-hw3-eray-burak-cakir\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.csproj.AssemblyReference.cache
+D:\Homewrkk\ce100-hw3-eray-burak-cakir\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Homewrkk\ce100-hw3-eray-burak-cakir\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.AssemblyInfoInputs.cache
+D:\Homewrkk\ce100-hw3-eray-burak-cakir\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.AssemblyInfo.cs
+D:\Homewrkk\ce100-hw3-eray-burak-cakir\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.csproj.CoreCompileInputs.cache
+D:\Homewrkk\ce100-hw3-eray-burak-cakir\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.dll
+D:\Homewrkk\ce100-hw3-eray-burak-cakir\ce100-hw3-sln\obj\Debug\net6.0\refint\ce100-hw3-algo-lib-cs.dll
+D:\Homewrkk\ce100-hw3-eray-burak-cakir\ce100-hw3-sln\obj\Debug\net6.0\ce100-hw3-algo-lib-cs.pdb
+D:\Homewrkk\ce100-hw3-eray-burak-cakir\ce100-hw3-sln\obj\Debug\net6.0\ref\ce100-hw3-algo-lib-cs.dll

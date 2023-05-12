@@ -6539,11 +6539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\ce100-hw3-algo-test-cs.csproj",
+      "projectUniqueName": "D:\\Homewrkk\\ce100-hw3-eray-burak-cakir\\UnitTest\\ce100-hw3-algo-test-cs.csproj",
       "projectName": "ce100-hw3-algo-test-cs",
-      "projectPath": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\ce100-hw3-algo-test-cs.csproj",
+      "projectPath": "D:\\Homewrkk\\ce100-hw3-eray-burak-cakir\\UnitTest\\ce100-hw3-algo-test-cs.csproj",
       "packagesPath": "C:\\Users\\ebcak\\.nuget\\packages\\",
-      "outputPath": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\UnitTest\\obj\\",
+      "outputPath": "D:\\Homewrkk\\ce100-hw3-eray-burak-cakir\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6565,8 +6565,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj": {
-              "projectPath": "D:\\Homewrkk\\ce-100-hw3-eray-burak-cakirr\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj"
+            "D:\\Homewrkk\\ce100-hw3-eray-burak-cakir\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj": {
+              "projectPath": "D:\\Homewrkk\\ce100-hw3-eray-burak-cakir\\ce100-hw3-sln\\ce100-hw3-algo-lib-cs.csproj"
             }
           }
         }
