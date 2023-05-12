@@ -7,6 +7,6 @@ digraph "Algorithms.HuffmanAlgorithm.HuffmanTree.Encode"
   rankdir="LR";
   Node1 [label="Algorithms.HuffmanAlgorithm.\lHuffmanTree.Encode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="Algorithms.HuffmanAlgorithm.\lNode_Txt.Traverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d6d/a00055.html#ae8e0363a31096bbbd2c93b0d0d7d9119",tooltip=" "];
+  Node2 [label="Algorithms.HuffmanAlgorithm.\lNode_Txt.Traverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d6d/a00055.html#ae8e0363a31096bbbd2c93b0d0d7d9119",tooltip="Traverses the Huffman tree to find the code for the given symbol."];
   Node2 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }
