@@ -97,8 +97,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.html">HuffmanTree</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ddf/a00067.html">HuffmanTree_mp3</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a Huffman coding tree for compressing and decompressing data in MP3 format.  <a href="../../dc/ddf/a00067.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d6f/a00063.html">Node_mp3</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a node in a Huffman tree used for MP3 compression.  <a href="../../d1/d6f/a00063.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d6d/a00055.html">Node_Txt</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a node in the Huffman tree for text data.  <a href="../../d4/d6d/a00055.html#details">More...</a><br /></td></tr>
@@ -107,8 +109,10 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ccc3ff7450e7c1953a3e028d1812c39"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d79/a00051.html#a4ccc3ff7450e7c1953a3e028d1812c39">WriteBitArray</a> (BinaryWriter writer, BitArray bits)</td></tr>
+<tr class="memdesc:a4ccc3ff7450e7c1953a3e028d1812c39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the given bit array to a binary writer.  <a href="../../d2/d79/a00051.html#a4ccc3ff7450e7c1953a3e028d1812c39">More...</a><br /></td></tr>
 <tr class="separator:a4ccc3ff7450e7c1953a3e028d1812c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a4cd49bfdfcaec34384ff6106e4fb06"><td class="memItemLeft" align="right" valign="top">static BitArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d79/a00051.html#a6a4cd49bfdfcaec34384ff6106e4fb06">ReadBitArray</a> (BinaryReader reader, long byteCount)</td></tr>
+<tr class="memdesc:a6a4cd49bfdfcaec34384ff6106e4fb06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads a bit array from a binary reader.  <a href="../../d2/d79/a00051.html#a6a4cd49bfdfcaec34384ff6106e4fb06">More...</a><br /></td></tr>
 <tr class="separator:a6a4cd49bfdfcaec34384ff6106e4fb06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -146,6 +150,16 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Reads a bit array from a binary reader. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">reader</td><td>The binary reader to read from.</td></tr>
+    <tr><td class="paramname">byteCount</td><td>The number of bytes to read.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The bit array read from the reader.</dd></dl>
+
 </div>
 </div>
 <a id="a4ccc3ff7450e7c1953a3e028d1812c39"></a>
@@ -182,6 +196,15 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Writes the given bit array to a binary writer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">writer</td><td>The binary writer to write to.</td></tr>
+    <tr><td class="paramname">bits</td><td>The bit array to write.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
@@ -193,7 +216,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/db2/a00020.html">Algorithms</a></li><li class="navelem"><a class="el" href="../../d2/d79/a00051.html">HuffmanAlgorithm</a></li>
-    <li class="footer">Generated on Fri May 12 2023 16:03:40 for CE103 Algorithms and Programming I HW3 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat May 13 2023 13:53:59 for CE103 Algorithms and Programming I HW3 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -7,5 +7,5 @@ digraph "Algorithms.HuffmanAlgorithm.HuffmanTree_mp3.Decode"
   rankdir="LR";
   Node1 [label="Algorithms.HuffmanAlgorithm.\lHuffmanTree_mp3.Decode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="Algorithms.HuffmanAlgorithm.\lHuffmanTree_mp3.IsLeaf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/ddf/a00067.html#ae8362fc93227521d7b670579ce484c7b",tooltip=" "];
+  Node2 [label="Algorithms.HuffmanAlgorithm.\lHuffmanTree_mp3.IsLeaf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/ddf/a00067.html#ae8362fc93227521d7b670579ce484c7b",tooltip="Determines whether the given node is a leaf in a binary tree."];
 }

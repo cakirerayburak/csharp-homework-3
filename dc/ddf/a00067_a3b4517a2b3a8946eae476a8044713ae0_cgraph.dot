@@ -7,6 +7,6 @@ digraph "Algorithms.HuffmanAlgorithm.HuffmanTree_mp3.Encode"
   rankdir="LR";
   Node1 [label="Algorithms.HuffmanAlgorithm.\lHuffmanTree_mp3.Encode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="Algorithms.HuffmanAlgorithm.\lNode_mp3.Traverse_mp3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d6f/a00063.html#adbd96c6ac290d8e8dcd5290cfac8acb5",tooltip=" "];
+  Node2 [label="Algorithms.HuffmanAlgorithm.\lNode_mp3.Traverse_mp3",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d6f/a00063.html#adbd96c6ac290d8e8dcd5290cfac8acb5",tooltip="Traverse the Huffman tree to find the bit sequence for the specified symbol."];
   Node2 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

@@ -97,6 +97,7 @@ $(document).ready(function(){initNavTree('d3/d8b/a00059.html','../../'); initRes
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af8de42bb131bb43680ec050f10a955b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.html#af8de42bb131bb43680ec050f10a955b4">Build</a> (string source)</td></tr>
+<tr class="memdesc:af8de42bb131bb43680ec050f10a955b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a Huffman tree based on the given source string.  <a href="../../d3/d8b/a00059.html#af8de42bb131bb43680ec050f10a955b4">More...</a><br /></td></tr>
 <tr class="separator:af8de42bb131bb43680ec050f10a955b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fbfd23c45412238200097506e949977"><td class="memItemLeft" align="right" valign="top">BitArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.html#a9fbfd23c45412238200097506e949977">Encode</a> (string source)</td></tr>
 <tr class="separator:a9fbfd23c45412238200097506e949977"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,7 +121,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:acefbc1d8760ced5aa19635d2dbcf924d"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="../../d4/d6d/a00055.html">Node_Txt</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d8b/a00059.html#acefbc1d8760ced5aa19635d2dbcf924d">nodes</a> = new List&lt;<a class="el" href="../../d4/d6d/a00055.html">Node_Txt</a>&gt;()</td></tr>
 <tr class="separator:acefbc1d8760ced5aa19635d2dbcf924d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class representing a Huffman Tree. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af8de42bb131bb43680ec050f10a955b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af8de42bb131bb43680ec050f10a955b4">&#9670;&nbsp;</a></span>Build()</h2>
 
@@ -136,6 +139,21 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Builds a Huffman tree based on the given source string. </p>
+<p>Builds the Huffman Tree for the given text.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The text to build the tree for.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The source string to build the Huffman tree from.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="reference">References <a class="el" href="../../d3/d8b/a00059.html#aea73bd3c4afef6b1b4b73b3fa928ad21">Algorithms.HuffmanAlgorithm.HuffmanTree.Frequencies</a>, <a class="el" href="../../d4/d6d/a00055.html#a1fd32e0c6b01efa9e5e8b59450f0dc8d">Algorithms.HuffmanAlgorithm.Node_Txt.Frequency</a>, <a class="el" href="../../d3/d8b/a00059.html#acefbc1d8760ced5aa19635d2dbcf924d">Algorithms.HuffmanAlgorithm.HuffmanTree.nodes</a>, and <a class="el" href="../../d3/d8b/a00059.html#a3aab93ef23113042f3afbc7e06e9d01d">Algorithms.HuffmanAlgorithm.HuffmanTree.Root</a>.</p>
 
@@ -156,6 +174,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Decodes a message using the Huffman tree. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bits</td><td>A BitArray containing the encoded message to be decoded. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The decoded message as a string. </dd></dl>
 
 <p class="reference">References <a class="el" href="../../d3/d8b/a00059.html#ad02d6a8e29ff4e6af2b3e3e2bc37c232">Algorithms.HuffmanAlgorithm.HuffmanTree.IsLeaf()</a>, <a class="el" href="../../d4/d6d/a00055.html#a53ce8121619e7778750dd5b7b9803cdf">Algorithms.HuffmanAlgorithm.Node_Txt.Left</a>, <a class="el" href="../../d4/d6d/a00055.html#a5a143b586c61aaff7458b5bdd14ee1f6">Algorithms.HuffmanAlgorithm.Node_Txt.Right</a>, <a class="el" href="../../d3/d8b/a00059.html#a3aab93ef23113042f3afbc7e06e9d01d">Algorithms.HuffmanAlgorithm.HuffmanTree.Root</a>, and <a class="el" href="../../d4/d6d/a00055.html#a4fdddc9522e1e7c6772525bc0a31a241">Algorithms.HuffmanAlgorithm.Node_Txt.Symbol</a>.</p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -183,6 +208,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Encodes a message using the Huffman tree. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The message to be encoded. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A BitArray containing the encoded message. </dd></dl>
 
 <p class="reference">References <a class="el" href="../../d3/d8b/a00059.html#a3aab93ef23113042f3afbc7e06e9d01d">Algorithms.HuffmanAlgorithm.HuffmanTree.Root</a>, and <a class="el" href="../../d4/d6d/a00055.html#ae8e0363a31096bbbd2c93b0d0d7d9119">Algorithms.HuffmanAlgorithm.Node_Txt.Traverse()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -210,6 +242,13 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Checks if a given node is a leaf node (i.e. has no children). </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node</td><td>The node to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the node is a leaf node, false otherwise. </dd></dl>
 
 <p class="reference">References <a class="el" href="../../d4/d6d/a00055.html#a53ce8121619e7778750dd5b7b9803cdf">Algorithms.HuffmanAlgorithm.Node_Txt.Left</a>, and <a class="el" href="../../d4/d6d/a00055.html#a5a143b586c61aaff7458b5bdd14ee1f6">Algorithms.HuffmanAlgorithm.Node_Txt.Right</a>.</p>
 
@@ -236,6 +275,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Dictionary of character frequencies in the text. </p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/d8b/a00059.html#af8de42bb131bb43680ec050f10a955b4">Algorithms.HuffmanAlgorithm.HuffmanTree.Build()</a>.</p>
 
@@ -260,6 +300,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>List of nodes in the Huffman Tree. </p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/d8b/a00059.html#af8de42bb131bb43680ec050f10a955b4">Algorithms.HuffmanAlgorithm.HuffmanTree.Build()</a>.</p>
 
@@ -285,6 +326,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Root node of the Huffman Tree. </p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/d8b/a00059.html#af8de42bb131bb43680ec050f10a955b4">Algorithms.HuffmanAlgorithm.HuffmanTree.Build()</a>, <a class="el" href="../../d3/d8b/a00059.html#a74247981f60c81c6f1220308a1138bf5">Algorithms.HuffmanAlgorithm.HuffmanTree.Decode()</a>, and <a class="el" href="../../d3/d8b/a00059.html#a9fbfd23c45412238200097506e949977">Algorithms.HuffmanAlgorithm.HuffmanTree.Encode()</a>.</p>
 
@@ -299,7 +341,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/db2/a00020.html">Algorithms</a></li><li class="navelem"><a class="el" href="../../d2/d79/a00051.html">HuffmanAlgorithm</a></li><li class="navelem"><a class="el" href="../../d3/d8b/a00059.html">HuffmanTree</a></li>
-    <li class="footer">Generated on Fri May 12 2023 16:03:40 for CE103 Algorithms and Programming I HW3 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat May 13 2023 13:53:59 for CE103 Algorithms and Programming I HW3 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

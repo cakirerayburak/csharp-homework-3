@@ -93,16 +93,21 @@ $(document).ready(function(){initNavTree('dc/ddf/a00067.html','../../'); initRes
 <div class="title">Algorithms.HuffmanAlgorithm.HuffmanTree_mp3 Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Represents a Huffman coding tree for compressing and decompressing data in MP3 format.  
+ <a href="../../dc/ddf/a00067.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a12def8b42ddc9476e6dac34e48452968"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ddf/a00067.html#a12def8b42ddc9476e6dac34e48452968">Build</a> (byte[] source)</td></tr>
+<tr class="memdesc:a12def8b42ddc9476e6dac34e48452968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a Huffman tree from the given source.  <a href="../../dc/ddf/a00067.html#a12def8b42ddc9476e6dac34e48452968">More...</a><br /></td></tr>
 <tr class="separator:a12def8b42ddc9476e6dac34e48452968"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b4517a2b3a8946eae476a8044713ae0"><td class="memItemLeft" align="right" valign="top">BitArray&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ddf/a00067.html#a3b4517a2b3a8946eae476a8044713ae0">Encode</a> (byte[] source)</td></tr>
 <tr class="separator:a3b4517a2b3a8946eae476a8044713ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8c5a53cb1ef7184e590ad7ea8e6cede"><td class="memItemLeft" align="right" valign="top">byte[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ddf/a00067.html#ae8c5a53cb1ef7184e590ad7ea8e6cede">Decode</a> (BitArray bits)</td></tr>
 <tr class="separator:ae8c5a53cb1ef7184e590ad7ea8e6cede"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8362fc93227521d7b670579ce484c7b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ddf/a00067.html#ae8362fc93227521d7b670579ce484c7b">IsLeaf</a> (<a class="el" href="../../d1/d6f/a00063.html">Node_mp3</a> node)</td></tr>
+<tr class="memdesc:ae8362fc93227521d7b670579ce484c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether the given node is a leaf in a binary tree.  <a href="../../dc/ddf/a00067.html#ae8362fc93227521d7b670579ce484c7b">More...</a><br /></td></tr>
 <tr class="separator:ae8362fc93227521d7b670579ce484c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -120,7 +125,11 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a5b478565a07f736400455419f68b59d9"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="../../d1/d6f/a00063.html">Node_mp3</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/ddf/a00067.html#a5b478565a07f736400455419f68b59d9">nodes</a> = new List&lt;<a class="el" href="../../d1/d6f/a00063.html">Node_mp3</a>&gt;()</td></tr>
 <tr class="separator:a5b478565a07f736400455419f68b59d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Represents a Huffman coding tree for compressing and decompressing data in MP3 format. </p>
+<p>This class builds a Huffman tree from a given byte array source, based on the frequency of each byte in the source.</p>
+<p>It provides methods to traverse the tree and encode or decode the data using Huffman coding. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a12def8b42ddc9476e6dac34e48452968"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12def8b42ddc9476e6dac34e48452968">&#9670;&nbsp;</a></span>Build()</h2>
 
@@ -136,6 +145,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Builds a Huffman tree from the given source. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The byte array source to build the tree from.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>This method builds a Huffman tree from the given source, based on the frequency of each byte in the source. </p>
 
 <p class="reference">References <a class="el" href="../../dc/ddf/a00067.html#abda1d92f32cdb150131b7d00674e9ca2">Algorithms.HuffmanAlgorithm.HuffmanTree_mp3.Frequencies</a>, <a class="el" href="../../d1/d6f/a00063.html#a54cb1e352ba57fc2a9aecccea3498e5a">Algorithms.HuffmanAlgorithm.Node_mp3.Frequency</a>, <a class="el" href="../../dc/ddf/a00067.html#a5b478565a07f736400455419f68b59d9">Algorithms.HuffmanAlgorithm.HuffmanTree_mp3.nodes</a>, and <a class="el" href="../../dc/ddf/a00067.html#ae348c47e7251fa20f7cbe90b70d5dd1c">Algorithms.HuffmanAlgorithm.HuffmanTree_mp3.Root</a>.</p>
 
@@ -156,6 +174,14 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Decodes a compressed bit array into a byte array using the Huffman tree.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bits</td><td>The compressed bit array to decode.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The decoded byte array. </dd></dl>
 
 <p class="reference">References <a class="el" href="../../dc/ddf/a00067.html#ae8362fc93227521d7b670579ce484c7b">Algorithms.HuffmanAlgorithm.HuffmanTree_mp3.IsLeaf()</a>, and <a class="el" href="../../dc/ddf/a00067.html#ae348c47e7251fa20f7cbe90b70d5dd1c">Algorithms.HuffmanAlgorithm.HuffmanTree_mp3.Root</a>.</p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -183,6 +209,14 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Encodes the given byte array using the Huffman coding algorithm.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The byte array to be encoded.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A BitArray containing the encoded data. </dd></dl>
 
 <p class="reference">References <a class="el" href="../../dc/ddf/a00067.html#ae348c47e7251fa20f7cbe90b70d5dd1c">Algorithms.HuffmanAlgorithm.HuffmanTree_mp3.Root</a>, and <a class="el" href="../../d1/d6f/a00063.html#adbd96c6ac290d8e8dcd5290cfac8acb5">Algorithms.HuffmanAlgorithm.Node_mp3.Traverse_mp3()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -210,6 +244,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Determines whether the given node is a leaf in a binary tree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">node</td><td>The node to check.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the node is a leaf, false otherwise.</dd></dl>
 
 <p class="reference">References <a class="el" href="../../d1/d6f/a00063.html#ac590ce09eb04cf9dc5f9693333f0407a">Algorithms.HuffmanAlgorithm.Node_mp3.Left</a>, and <a class="el" href="../../d1/d6f/a00063.html#a9912df03ddb892f4949f2b0b152d40e1">Algorithms.HuffmanAlgorithm.Node_mp3.Right</a>.</p>
 
@@ -299,7 +342,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/db2/a00020.html">Algorithms</a></li><li class="navelem"><a class="el" href="../../d2/d79/a00051.html">HuffmanAlgorithm</a></li><li class="navelem"><a class="el" href="../../dc/ddf/a00067.html">HuffmanTree_mp3</a></li>
-    <li class="footer">Generated on Fri May 12 2023 16:03:40 for CE103 Algorithms and Programming I HW3 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat May 13 2023 13:53:59 for CE103 Algorithms and Programming I HW3 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -92,29 +92,40 @@ $(document).ready(function(){initNavTree('d9/da5/a00075.html','../../'); initRes
 <div class="title">Algorithms.AssemblyGuide Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Represents a guide for assembling items.  
+ <a href="../../d9/da5/a00075.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae61b8054b5771838b7af13d3020c5575"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da5/a00075.html#ae61b8054b5771838b7af13d3020c5575">AssemblyGuide</a> ()</td></tr>
+<tr class="memdesc:ae61b8054b5771838b7af13d3020c5575"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="../../d9/da5/a00075.html" title="Represents a guide for assembling items.">AssemblyGuide</a> class.  <a href="../../d9/da5/a00075.html#ae61b8054b5771838b7af13d3020c5575">More...</a><br /></td></tr>
 <tr class="separator:ae61b8054b5771838b7af13d3020c5575"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2051312a295fc84ff5a52d6e35144f1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da5/a00075.html#a2051312a295fc84ff5a52d6e35144f1c">AddItem</a> (List&lt; <a class="el" href="../../d0/d89/a00071.html">Item</a> &gt; item)</td></tr>
+<tr class="memdesc:a2051312a295fc84ff5a52d6e35144f1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a list of items to the assembly guide.  <a href="../../d9/da5/a00075.html#a2051312a295fc84ff5a52d6e35144f1c">More...</a><br /></td></tr>
 <tr class="separator:a2051312a295fc84ff5a52d6e35144f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a331dc59c660b66ae439e60328730533e"><td class="memItemLeft" align="right" valign="top">ArrayList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da5/a00075.html#a331dc59c660b66ae439e60328730533e">GetAssemblySteps</a> ()</td></tr>
+<tr class="memdesc:a331dc59c660b66ae439e60328730533e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the steps required to assemble the items in the guide.  <a href="../../d9/da5/a00075.html#a331dc59c660b66ae439e60328730533e">More...</a><br /></td></tr>
 <tr class="separator:a331dc59c660b66ae439e60328730533e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a8594d4804bfb0e8f7e44bdc56e86fcfd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da5/a00075.html#a8594d4804bfb0e8f7e44bdc56e86fcfd">DFS</a> (int id, HashSet&lt; int &gt; visited, Stack&lt; int &gt; stack)</td></tr>
+<tr class="memdesc:a8594d4804bfb0e8f7e44bdc56e86fcfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a depth-first search to determine the topological sort order of the items in the guide.  <a href="../../d9/da5/a00075.html#a8594d4804bfb0e8f7e44bdc56e86fcfd">More...</a><br /></td></tr>
 <tr class="separator:a8594d4804bfb0e8f7e44bdc56e86fcfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a827aef535a063a94accad2b4777a9b77"><td class="memItemLeft" align="right" valign="top">List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da5/a00075.html#a827aef535a063a94accad2b4777a9b77">TopologicalSort</a> ()</td></tr>
+<tr class="memdesc:a827aef535a063a94accad2b4777a9b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a topological sort on the items in the guide.  <a href="../../d9/da5/a00075.html#a827aef535a063a94accad2b4777a9b77">More...</a><br /></td></tr>
 <tr class="separator:a827aef535a063a94accad2b4777a9b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ae985e064317cd550b3bc4c3272e6ca1e"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="../../d0/d89/a00071.html">Item</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da5/a00075.html#ae985e064317cd550b3bc4c3272e6ca1e">steps</a></td></tr>
+<tr class="memdesc:ae985e064317cd550b3bc4c3272e6ca1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of items in the assembly guide.  <a href="../../d9/da5/a00075.html#ae985e064317cd550b3bc4c3272e6ca1e">More...</a><br /></td></tr>
 <tr class="separator:ae985e064317cd550b3bc4c3272e6ca1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Represents a guide for assembling items. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae61b8054b5771838b7af13d3020c5575"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae61b8054b5771838b7af13d3020c5575">&#9670;&nbsp;</a></span>AssemblyGuide()</h2>
 
@@ -129,6 +140,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Initializes a new instance of the <a class="el" href="../../d9/da5/a00075.html" title="Represents a guide for assembling items.">AssemblyGuide</a> class. </p>
 
 <p class="reference">References <a class="el" href="../../d9/da5/a00075.html#ae985e064317cd550b3bc4c3272e6ca1e">Algorithms.AssemblyGuide.steps</a>.</p>
 
@@ -150,6 +163,14 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Adds a list of items to the assembly guide. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>The list of items to add. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="reference">References <a class="el" href="../../d9/da5/a00075.html#ae985e064317cd550b3bc4c3272e6ca1e">Algorithms.AssemblyGuide.steps</a>.</p>
 
@@ -195,6 +216,16 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Performs a depth-first search to determine the topological sort order of the items in the guide. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>The unique identifier of the item to start the search from. </td></tr>
+    <tr><td class="paramname">visited</td><td>A hash set of visited items. </td></tr>
+    <tr><td class="paramname">stack</td><td>A stack of items in the sort order. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p class="reference">References <a class="el" href="../../d9/da5/a00075.html#ae985e064317cd550b3bc4c3272e6ca1e">Algorithms.AssemblyGuide.steps</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/da5/a00075.html#a827aef535a063a94accad2b4777a9b77">Algorithms.AssemblyGuide.TopologicalSort()</a>.</p>
@@ -222,6 +253,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Gets the steps required to assemble the items in the guide. </p>
+<dl class="section return"><dt>Returns</dt><dd>An ArrayList containing the assembly steps. </dd></dl>
 
 <p class="reference">References <a class="el" href="../../d0/d89/a00071.html#a26edbae588933a89d18b535954f8b530">Algorithms.Item.Dependencies</a>, <a class="el" href="../../d9/da5/a00075.html#ae985e064317cd550b3bc4c3272e6ca1e">Algorithms.AssemblyGuide.steps</a>, and <a class="el" href="../../d9/da5/a00075.html#a827aef535a063a94accad2b4777a9b77">Algorithms.AssemblyGuide.TopologicalSort()</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -256,6 +290,9 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Performs a topological sort on the items in the guide. </p>
+<dl class="section return"><dt>Returns</dt><dd>A list of the items in topological sort order. </dd></dl>
 
 <p class="reference">References <a class="el" href="../../d9/da5/a00075.html#a8594d4804bfb0e8f7e44bdc56e86fcfd">Algorithms.AssemblyGuide.DFS()</a>, <a class="el" href="../../d0/d89/a00071.html#a42e71485f787ac2e1d4a1e908e7a0e13">Algorithms.Item.Id</a>, and <a class="el" href="../../d9/da5/a00075.html#ae985e064317cd550b3bc4c3272e6ca1e">Algorithms.AssemblyGuide.steps</a>.</p>
 
@@ -298,6 +335,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The list of items in the assembly guide. </p>
+
 <p class="reference">Referenced by <a class="el" href="../../d9/da5/a00075.html#a2051312a295fc84ff5a52d6e35144f1c">Algorithms.AssemblyGuide.AddItem()</a>, <a class="el" href="../../d9/da5/a00075.html#ae61b8054b5771838b7af13d3020c5575">Algorithms.AssemblyGuide.AssemblyGuide()</a>, <a class="el" href="../../d9/da5/a00075.html#a8594d4804bfb0e8f7e44bdc56e86fcfd">Algorithms.AssemblyGuide.DFS()</a>, <a class="el" href="../../d9/da5/a00075.html#a331dc59c660b66ae439e60328730533e">Algorithms.AssemblyGuide.GetAssemblySteps()</a>, and <a class="el" href="../../d9/da5/a00075.html#a827aef535a063a94accad2b4777a9b77">Algorithms.AssemblyGuide.TopologicalSort()</a>.</p>
 
 </div>
@@ -311,7 +350,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/db2/a00020.html">Algorithms</a></li><li class="navelem"><a class="el" href="../../d9/da5/a00075.html">AssemblyGuide</a></li>
-    <li class="footer">Generated on Fri May 12 2023 16:03:40 for CE103 Algorithms and Programming I HW3 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sat May 13 2023 13:53:59 for CE103 Algorithms and Programming I HW3 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
