@@ -324,11 +324,41 @@ namespace Algorithms
             }
         }
 
+
+        /**
+     * Class representing a Huffman Tree.
+     */
         public class HuffmanTree
         {
+
+            /**
+         * List of nodes in the Huffman Tree.
+         */
             private List<Node_Txt> nodes = new List<Node_Txt>();
+
+
+            /**
+             * Root node of the Huffman Tree.
+             */
             public Node_Txt Root { get; set; }
+
+            /**
+        * Dictionary of character frequencies in the text.
+        */
             public Dictionary<char, int> Frequencies = new Dictionary<char, int>();
+
+
+            /**
+             * Builds the Huffman Tree for the given text.
+             * 
+             * @param source The text to build the tree for.
+             */
+
+
+            /// <summary>
+            /// Builds a Huffman tree based on the given source string.
+            /// </summary>
+            /// <param name="source">The source string to build the Huffman tree from.</param>
 
             public void Build(string source)
             {
@@ -376,6 +406,11 @@ namespace Algorithms
 
             }
 
+            /**
+            * Encodes a message using the Huffman tree.
+            * @param source The message to be encoded.
+            * @return A BitArray containing the encoded message.
+            */
             public BitArray Encode(string source)
             {
                 List<bool> encodedSource = new List<bool>();
@@ -390,6 +425,12 @@ namespace Algorithms
 
                 return bits;
             }
+
+            /**
+            * Decodes a message using the Huffman tree.
+            * @param bits A BitArray containing the encoded message to be decoded.
+            * @return The decoded message as a string.
+            */
 
             public string Decode(BitArray bits)
             {
@@ -423,6 +464,13 @@ namespace Algorithms
                 return decoded;
             }
 
+
+            /**
+            * Checks if a given node is a leaf node (i.e. has no children).
+            * @param node The node to check.
+            * @return True if the node is a leaf node, false otherwise.
+            */
+
             public bool IsLeaf(Node_Txt node)
             {
                 return (node.Left == null && node.Right == null);
@@ -430,13 +478,41 @@ namespace Algorithms
 
         }
 
+
+        /// <summary>
+        /// Represents a node in a Huffman tree used for MP3 compression.
+        /// </summary>
         public class Node_mp3
         {
+
+            /// <summary>
+            /// The symbol represented by this node.
+            /// </summary>
             public byte Symbol { get; set; }
+
+            /// <summary>
+            /// The frequency of the symbol represented by this node.
+            /// </summary>
             public int Frequency { get; set; }
+
+            /// <summary>
+            /// The left child node of this node.
+            /// </summary>
             public Node_mp3 Left { get; set; }
+
+            /// <summary>
+            /// The right child node of this node.
+            /// </summary>
             public Node_mp3 Right { get; set; }
 
+
+            /// <summary>
+            /// Traverse the Huffman tree to find the bit sequence for the specified symbol.
+            /// </summary>
+            /// <param name="symbol">The symbol to find the bit sequence for.</param>
+            /// <param name="data">The current bit sequence being built.</param>
+            /// <returns>The bit sequence for the specified symbol, or null if the symbol is not found in the tree.</returns>
+            
             public List<bool> Traverse_mp3(byte? symbol, List<bool> data)
             {
                 // Leaf node
@@ -486,12 +562,33 @@ namespace Algorithms
             }
         }
 
+
+        /**
+
+        @class HuffmanTree_mp3
+
+        @brief Represents a Huffman coding tree for compressing and decompressing data in MP3 format.
+
+        This class builds a Huffman tree from a given byte array source, based on the frequency of each byte in the source.
+
+        It provides methods to traverse the tree and encode or decode the data using Huffman coding.
+        */
+
         public class HuffmanTree_mp3
         {
             private List<Node_mp3> nodes = new List<Node_mp3>();
             public Node_mp3 Root { get; set; }
             public Dictionary<byte, int> Frequencies = new Dictionary<byte, int>();
 
+
+            /**
+
+            @brief Builds a Huffman tree from the given source.
+
+            @param source The byte array source to build the tree from.
+
+            This method builds a Huffman tree from the given source, based on the frequency of each byte in the source.
+            */
             public void Build(byte[] source)
             {
                 for (int i = 0; i < source.Length; i++)
@@ -536,6 +633,17 @@ namespace Algorithms
                 }
             }
 
+
+            /**
+
+            Encodes the given byte array using the Huffman coding algorithm.
+
+            @param source The byte array to be encoded.
+
+            @return A BitArray containing the encoded data.
+            */
+     
+
             public BitArray Encode(byte[] source)
             {
                 List<bool> encodedSource = new List<bool>();
@@ -550,6 +658,16 @@ namespace Algorithms
 
                 return bits;
             }
+
+
+            /**
+
+            Decodes a compressed bit array into a byte array using the Huffman tree.
+
+            @param bits The compressed bit array to decode.
+
+            @return The decoded byte array.
+            */
 
             public byte[] Decode(BitArray bits)
             {
@@ -583,17 +701,39 @@ namespace Algorithms
                 return decoded.ToArray();
             }
 
+
+            /// <summary>
+            /// Determines whether the given node is a leaf in a binary tree.
+            /// </summary>
+            /// <param name="node">The node to check.</param>
+            /// <returns>True if the node is a leaf, false otherwise.</returns>
             public bool IsLeaf(Node_mp3 node)
             {
                 return (node.Left == null && node.Right == null);
             }
         }
+
+
+        /// <summary>
+        /// Writes the given bit array to a binary writer.
+        /// </summary>
+        /// <param name="writer">The binary writer to write to.</param>
+        /// <param name="bits">The bit array to write.</param>
         public static void WriteBitArray(BinaryWriter writer, BitArray bits)
         {
             byte[] bytes = new byte[(bits.Length + 7) / 8];
             bits.CopyTo(bytes, 0);
             writer.Write(bytes);
         }
+
+
+
+        /// <summary>
+        /// Reads a bit array from a binary reader.
+        /// </summary>
+        /// <param name="reader">The binary reader to read from.</param>
+        /// <param name="byteCount">The number of bytes to read.</param>
+        /// <returns>The bit array read from the reader.</returns>
 
         public static BitArray ReadBitArray(BinaryReader reader, long byteCount)
         {
@@ -612,12 +752,21 @@ namespace Algorithms
 
 
 
+    /// \brief Represents an item in the assembly guide.
     public class Item
     {
+        /// \brief The name of the item.
         public string Name { get; set; }
+        /// \brief The unique identifier of the item.
         public int Id { get; set; }
+
+        /// \brief The list of dependencies required to assemble the item.
         public List<int> Dependencies { get; set; }
 
+
+        /// \brief Initializes a new instance of the Item class.
+        /// \param name The name of the item.
+        /// \param id The unique identifier of the item.
         public Item(string name, int id)
         {
             Name = name;
@@ -626,14 +775,21 @@ namespace Algorithms
         }
     }
 
+    /// \brief Represents a guide for assembling items.
     public class AssemblyGuide
     {
-        private List<Item> steps;
 
+        /// \brief The list of items in the assembly guide.
+        private List<Item> steps;
+        /// \brief Initializes a new instance of the AssemblyGuide class.
         public AssemblyGuide()
         {
             steps = new List<Item>();
         }
+
+        /// \brief Adds a list of items to the assembly guide.
+        /// \param item The list of items to add.
+
 
 
         public void AddItem(List<Item> item)
@@ -641,7 +797,8 @@ namespace Algorithms
             steps.AddRange(item);
         }
 
-
+        /// \brief Gets the steps required to assemble the items in the guide.
+        /// \return An ArrayList containing the assembly steps.
 
 
         public ArrayList GetAssemblySteps()
@@ -660,6 +817,10 @@ namespace Algorithms
         }
 
 
+        /// \brief Performs a depth-first search to determine the topological sort order of the items in the guide.
+        /// \param id The unique identifier of the item to start the search from.
+        /// \param visited A hash set of visited items.
+        /// \param stack A stack of items in the sort order.
         private void DFS(int id, HashSet<int> visited, Stack<int> stack)
         {
             visited.Add(id);
@@ -675,6 +836,9 @@ namespace Algorithms
             stack.Push(id);
         }
 
+
+        /// \brief Performs a topological sort on the items in the guide.
+        /// \return A list of the items in topological sort order.
         private List<int> TopologicalSort()
         {
             HashSet<int> visited = new HashSet<int>();
